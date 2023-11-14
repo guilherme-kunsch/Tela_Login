@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Titillium Web;
+}
+
+.logo {
+  margin: 40px 432px 114px 112px;
+}
+
+.content {
+  width: 384px;
+  margin: 114px 208px 209px 112px;
+}
+
+.texts {
+  width: 351px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.texts h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1E293B;
+}
+
+.texts p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 16px 12px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #E2E8F0;
+}
+
+.inputs input:hover {
+  border: 1px solid #7C3AED;
+}
+
+.inputs input:focus {
+  outline: 0px solid #7C3AED;
+}
