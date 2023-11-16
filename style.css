@@ -6,7 +6,13 @@
 
 body {
   font-family: Titillium Web;
-  background: #f8fafc;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -14,7 +20,6 @@ body {
 }
 
 .content {
-  width: 384px;
   margin: 114px 208px 209px 112px;
 }
 
@@ -86,10 +91,11 @@ body {
   gap: 233px;
 }
 
-.inputs .reset-password p:last-child {
+.inputs .reset-password a {
   color: #7c3aed;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .inputs input::placeholder {
@@ -115,4 +121,32 @@ body {
   align-items: center;
   border-radius: 4px;
   border: none;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background: #9f67ff;
+}
+
+.sign-up {
+  margin-top: 32px;
+}
+
+.sign-up p {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sign-up a {
+  color: #7c3aed;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.direita {
+  background: url(assets/img.png) no-repeat top center/cover;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
 }

@@ -15,45 +15,53 @@
 
   <body>
     <div class="main">
-      <div class="logo">
-        <img src="assets/logo.svg" alt="logo vertigo" />
-      </div>
-      <div class="content">
-        <div class="texts">
-          <h1>Acesse a plataforma</h1>
-          <p>
-            Faça login ou registre-se para começar a construir seus projetos
-            ainda hoje.
-          </p>
+      <div class="esquerda">
+        <div class="logo">
+          <img src="assets/logo.svg" alt="logo vertigo" />
         </div>
+        <form action="post">
+          <div class="content">
+            <div class="texts">
+              <h1>Acesse a plataforma</h1>
+              <p>
+                Faça login ou registre-se para começar a construir seus projetos
+                ainda hoje.
+              </p>
+            </div>
 
-        <div class="inputs">
-          <div class="email">
-            <p>E-mail</p>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Digite seu e-mail"
-            />
+            <div class="inputs">
+              <div class="email">
+                <p>E-mail</p>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Digite seu e-mail"
+                />
+              </div>
+              <div class="reset-password">
+                <p>Senha</p>
+                <a href="http://">Esqueceu a senha?</a>
+              </div>
+              <div class="password">
+                <input
+                  type="password"
+                  name="senha"
+                  id="senha"
+                  placeholder="Digite sua senha"
+                />
+              </div>
+              <div class="button">
+                <button type="submit">Entrar</button>
+              </div>
+              <div class="sign-up">
+                Ainda não tem uma conta? <a href="http://">Inscreva-se</a>
+              </div>
+            </div>
           </div>
-          <div class="reset-password">
-            <p>Senha</p>
-            <p>Esqueceu a senha?</p>
-          </div>
-          <div class="password">
-            <input
-              type="password"
-              name="senha"
-              id="senha"
-              placeholder="Digite sua senha"
-            />
-          </div>
-          <div class="button">
-            <button>Entrar</button>
-          </div>
-        </div>
+        </form>
       </div>
+      <div class="direita"></div>
     </div>
   </body>
 </html>
